@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    height: 75vh;
+    background-color: beige;
+}
+
+.main {
+    display: flex;
+    gap: 100px;
+}
+
+.garun-argazkia {
+    width: 350px;
+}
+
+.garun-argazkia:hover {
+    opacity: 0.9;
+    cursor: pointer
+}
+
+.garun-argazkia:active {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.ezker h3 {
+    text-align: center;
+    font-size: 35px;
+    font-style: initial;
+}
